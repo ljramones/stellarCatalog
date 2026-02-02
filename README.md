@@ -6,7 +6,22 @@ An extended star catalog based on the [AT-HYG dataset](https://www.astronexus.co
 
 This repository contains star catalog data files that are a **superset of the AT-HYG dataset**. The original AT-HYG catalog merges data from Hipparcos, Yale Bright Star, and Gliese catalogs with modern astrometric data.
 
-This dataset is designed for use with [TRIPS (Terran Republic Interstellar Plotter System)](https://github.com/ljramones/trips), a JavaFX-based 3D stellar cartography application for visualizing and plotting interstellar routes. TRIPS was originally developed to help visualize the stellar neighborhood for Chuck Gannon's [Caine Riordan](https://charlesegannon.com) science fiction series.
+This dataset is designed for use with [TRIPS (Terran Republic Interstellar Plotter System)](https://github.com/ljramones/trips).
+
+### About TRIPS
+
+TRIPS is a JavaFX-based 3D stellar cartography application for visualizing and plotting interstellar routes. It combines Spring Boot for backend services with JavaFX for 3D visualization, using an embedded H2 database for persistence.
+
+**Origins**: Initially developed with Chuck Gannon to help visualize the stellar neighborhood for his [Caine Riordan](https://charlesegannon.com) series.
+
+**Key capabilities:**
+- View and edit stellar data in tabular form
+- Plot stars in an interactive 3D visualization
+- Plan interstellar routes using graph algorithms
+- Explore solar systems with orbital visualization
+- Generate procedural planets with realistic terrain
+- Import data from major astronomical catalogs (Gaia, SIMBAD, VizieR)
+- Use for scientific research or science fiction world-building
 
 ## Extensions to the Original Dataset
 
