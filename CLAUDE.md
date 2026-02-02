@@ -4,9 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a **data repository** containing star catalog CSV files for the TRIPS application (`com.teamgannon.trips`). The data is derived from the HYG-MERGED-2m catalog (Hipparcos-Yale-Gliese merged with Gaia DR2/DR3 data) and includes photometric mass/temperature estimates.
+This is a **data repository** containing star catalog CSV files for [TRIPS (Terran Republic Interstellar Plotter System)](https://github.com/ljramones/trips), a JavaFX-based 3D stellar cartography application. The data is derived from the AT-HYG dataset (Hipparcos-Yale-Gliese merged with Gaia DR2/DR3 data) with extended distance values and physical parameters.
 
-The CSV schema corresponds to the `StarObject` JPA entity used by the TRIPS Java application.
+The CSV schema corresponds to the `StarObject` JPA entity (`com.teamgannon.trips.jpa.model.StarObject`) used by the TRIPS Java application.
 
 ## Repository Structure
 
