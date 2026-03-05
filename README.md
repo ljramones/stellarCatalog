@@ -146,6 +146,20 @@ The CSV files contain the following fields. Coordinates are heliocentric in J200
 | miscText1-5 | String | Custom text fields |
 | miscNum1-5 | double | Custom numeric fields |
 
+## TRIPS Application Releases
+
+The `trips_releases/` directory contains platform-specific installers for the TRIPS application, organized by operating system and processor architecture:
+
+```
+trips_releases/
+├── macos/
+│   ├── appleSilicon/    # macOS on Apple Silicon (M1/M2/M3/M4)
+│   └── x64_intel/       # macOS on Intel x86-64
+└── win10/               # Windows 10/11 on x86-64
+```
+
+See the [trips_releases README](trips_releases/README.md) for installation instructions.
+
 ## Usage
 
 This repository uses **Git LFS** for the CSV files. After cloning:
